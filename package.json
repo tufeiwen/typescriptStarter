@@ -1,0 +1,21 @@
+{
+  "name": "typescript_starter",
+  "version": "1.0.0",
+  "description": "typescript init setup",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "typings install"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "wen",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^2.0.2",
+    "typings": "^1.0.4",
+    "tslint": "^3.7.4",
+    "lodash": "^4.11.1"
+  }
+}
