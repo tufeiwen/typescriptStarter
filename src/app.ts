@@ -1,5 +1,5 @@
-import * as fs from "fs";
-function sayHi(name:String){
-    console.log("Hi, "+name);
-}
-sayHi("serena.");
+
+ //   console.log("Hello, typescript."); //test dev setup
+import runPromise from "./promise/promiseDriver";
+
+runPromise();
